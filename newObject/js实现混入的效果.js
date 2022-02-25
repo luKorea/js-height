@@ -2,10 +2,11 @@
  * @Author: korealu
  * @Date: 2022-02-11 14:32:50
  * @LastEditors: korealu
- * @LastEditTime: 2022-02-11 14:50:28
+ * @LastEditTime: 2022-02-24 10:15:46
  * @Description: file content
  * @FilePath: /js-height/newObject/js实现混入的效果.js
  */
+//前提： js只支持单继承
 class Person {
     eating() {
         console.log('eating ~~')

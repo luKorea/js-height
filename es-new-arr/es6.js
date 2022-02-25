@@ -2,7 +2,7 @@
  * @Author: korealu
  * @Date: 2022-02-10 15:47:59
  * @LastEditors: korealu
- * @LastEditTime: 2022-02-11 16:42:05
+ * @LastEditTime: 2022-02-24 14:14:31
  * @Description: file content
  * @FilePath: /js-height/es-new-arr/es6.js
  */
@@ -47,3 +47,4 @@ const {name: newName} = objectInfo; // 重新命名
 console.log(newName);
 const {skill = '吃饭'} = objectInfo; // 默认值配置
 console.log(skill);
+// ve
