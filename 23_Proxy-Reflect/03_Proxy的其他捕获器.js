@@ -1,3 +1,11 @@
+/*
+ * @Author: korealu
+ * @Date: 2022-02-24 14:41:42
+ * @LastEditors: korealu
+ * @LastEditTime: 2022-03-03 14:06:37
+ * @Description: file content
+ * @FilePath: /js-height/23_Proxy-Reflect/03_Proxy的其他捕获器.js
+ */
 const obj = {
   name: "why", // 数据属性描述符
   age: 18
@@ -40,3 +48,4 @@ const objProxy = new Proxy(obj, {
 
 // delete操作
 delete objProxy.name
+console.log(obj.name)
