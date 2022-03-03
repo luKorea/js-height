@@ -1,3 +1,11 @@
+/*
+ * @Author: korealu
+ * @Date: 2022-02-24 14:44:57
+ * @LastEditors: korealu
+ * @LastEditTime: 2022-03-03 14:20:06
+ * @Description: file content
+ * @FilePath: /js-height/20_ES10知识点解析/01_flat和flatMap的使用.js
+ */
 // 1.flat的使用
 // const nums = [10, 20, [2, 9], [[30, 40], [10, 45]], 78, [55, 88]]
 // const newNums = nums.flat()
