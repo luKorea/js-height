@@ -1,3 +1,11 @@
+/*
+ * @Author: korealu
+ * @Date: 2022-02-24 14:41:44
+ * @LastEditors: korealu
+ * @LastEditTime: 2022-03-03 15:02:18
+ * @Description: file content
+ * @FilePath: /js-height/23_Proxy-Reflect/06_receiver参数的作用.js
+ */
 const obj = {
   _name: "why",
   get name() {
@@ -21,5 +29,5 @@ const objProxy = new Proxy(obj, {
   }
 })
 
-// console.log(objProxy.name)
+console.log(objProxy.name)
 objProxy.name = "kobe"

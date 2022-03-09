@@ -1,3 +1,11 @@
+/*
+ * @Author: korealu
+ * @Date: 2022-02-24 14:45:19
+ * @LastEditors: korealu
+ * @LastEditTime: 2022-03-09 15:31:15
+ * @Description: file content
+ * @FilePath: /js-height/26_迭代器-生成器/06_自定义类的可迭代性.js
+ */
 // class Person {
 
 // }
@@ -28,6 +36,7 @@ class Classroom {
           return { done: true, value: undefined }
         }
       },
+      // 迭代器中断监听
       return: () => {
         console.log("迭代器提前终止了~")
         return { done: true, value: undefined }

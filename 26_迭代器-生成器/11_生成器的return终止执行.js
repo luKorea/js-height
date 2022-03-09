@@ -1,10 +1,18 @@
+/*
+ * @Author: korealu
+ * @Date: 2022-02-24 14:45:15
+ * @LastEditors: korealu
+ * @LastEditTime: 2022-03-09 16:03:33
+ * @Description: file content
+ * @FilePath: /js-height/26_迭代器-生成器/11_生成器的return终止执行.js
+ */
 function* foo(num) {
   console.log("函数开始执行~")
 
   const value1 = 100 * num
   console.log("第一段代码:", value1)
   const n = yield value1
-
+  
   const value2 = 200 * n
   console.log("第二段代码:", value2)
   const count = yield value2

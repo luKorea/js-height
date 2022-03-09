@@ -1,7 +1,15 @@
+/*
+ * @Author: korealu
+ * @Date: 2022-02-24 14:45:18
+ * @LastEditors: korealu
+ * @LastEditTime: 2022-03-09 14:32:59
+ * @Description: file content
+ * @FilePath: /js-height/26_迭代器-生成器/03_认识什么是可迭代对象.js
+ */
 // 创建一个迭代器对象来访问数组
 const iterableObj = {
   names: ["abc", "cba", "nba"],
-  [Symbol.iterator]: function() {
+  [Symbol.iterator]: function() { 
     let index = 0
     return {
       next: () => {
